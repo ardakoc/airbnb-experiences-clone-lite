@@ -23,12 +23,12 @@ nav {
 
 .nav-btn {
   background: none;
-  font-family: 'Manrope', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   border: 0;
-  padding: 12px;
-  margin-right: -6px;
+  padding: 9px 15px;
+  margin-top: 2px;
+  margin-right: -9px;
   margin-bottom: 2px;
   left: -3px;
   right: -3px;
@@ -42,12 +42,13 @@ nav {
 
 .nav-globe-icon-wrapper {
   background: none;
+  display: flex;
+  align-items: center;
   border: 0;
-  padding-top: 3px;
 }
 
 .nav-globe-icon {
-  margin: 12px;
+  margin: 12px 15px;
 }
 
 .nav-globe-icon-wrapper:hover {
