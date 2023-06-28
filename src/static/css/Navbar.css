@@ -18,17 +18,18 @@ nav {
   display: flex;
   align-items: center !important;
   justify-content: flex-end !important;
-  gap: 6px;
+  gap: 2px;
 }
 
 .nav-btn {
   background: none;
-  font-size: 15px;
+  font-size: 15.5px;
   font-weight: 500;
+  letter-spacing: -0.22px;
   border: 0;
   padding: 9px 15px;
   margin-top: 2px;
-  margin-right: -9px;
+  margin-right: -8px;
   margin-bottom: 2px;
   left: -3px;
   right: -3px;
@@ -45,6 +46,7 @@ nav {
   display: flex;
   align-items: center;
   border: 0;
+  /* margin-right: -4px; */
 }
 
 .nav-globe-icon {
