@@ -9,6 +9,7 @@
 
 .card-img-wrapper {
   height: 340px;
+  position: relative;
 }
 
 .card-img {
@@ -17,6 +18,15 @@
   object-fit: cover;
   border: 1px solid #aaa;
   border-radius: 15px;
+}
+
+.fav-button {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  cursor: pointer;
 }
 
 .card-detail-info {
