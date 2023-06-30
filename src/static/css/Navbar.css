@@ -7,6 +7,11 @@ nav {
   padding-left: 153px;
   padding-right: 153px;
   margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
 }
 
 .nav-logo {
