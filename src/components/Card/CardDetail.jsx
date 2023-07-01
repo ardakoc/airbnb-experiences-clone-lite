@@ -5,17 +5,17 @@ import Location from "./Location"
 import CardTitle from "./CardTitle"
 import Price from "./Price"
 
-export default function CardDetail() {
+export default function CardDetail(props) {
   return (
     <>
       <div className="card-detail-info">
         <Star />
-        <Rating />
+        <Rating rating={props.rating} voteCount={props.voteCount} />
         <Seperator />
-        <Location />
+        <Location location={props.location} />
       </div>
-      <CardTitle />
-      <Price />
+      <CardTitle title={props.title} />
+      <Price price={props.price} />
     </>
   )
 }

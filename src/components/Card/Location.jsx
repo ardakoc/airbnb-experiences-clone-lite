@@ -1,3 +1,3 @@
-export default function Location() {
-  return <p style={{ color: "#717171" }}>Japan</p>
+export default function Location(props) {
+  return <p style={{ color: "#717171" }}>{props.location}</p>
 }

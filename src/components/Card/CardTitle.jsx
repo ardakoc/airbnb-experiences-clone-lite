@@ -1,3 +1,3 @@
-export default function CardTitle() {
-  return <p className="card-title">Learn & Plan a Kyoto trip with local advisor Yuko</p>
+export default function CardTitle(props) {
+  return <p className="card-title">{props.title}</p>
 }

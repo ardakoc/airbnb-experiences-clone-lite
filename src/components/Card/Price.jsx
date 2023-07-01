@@ -1,3 +1,3 @@
-export default function Price() {
-  return <p className="price"><span style={{ fontWeight: "500" }}>From $8</span> / person</p>
+export default function Price(props) {
+  return <p className="price"><span style={{ fontWeight: "500" }}>From ${props.price}</span> / person</p>
 }
