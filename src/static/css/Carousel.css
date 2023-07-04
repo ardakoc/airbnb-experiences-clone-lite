@@ -17,14 +17,15 @@
     padding: 0 64px;
     padding-bottom: 64px;
   }
+  .experiences {
+    gap: 42px;
+  }  
 
 }
 @media (max-width: 700px) {
-  .carousel {
-    align-items: center;
-  }
   .experiences {
-    flex-direction: column;
-    gap: 48px;
+    display: grid;
+    grid-template-columns: 220px auto;
+    gap: 0;
   }  
 }
