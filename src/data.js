@@ -17,7 +17,12 @@ export default [
       And I'll suggest your personalized trip plan, tailored to the length of your stay and your preferences.
     `,
     price: 8,
-    img: "src/static/img/card-img.png",
+    coverImg: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121632-media_library/original/5310e7f3-cd91-40a2-a9fb-da85ef5ded87.jpeg?im_w=480",
+    gallery: [
+      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121632-media_library/original/f42b1c93-cbce-4d17-a78c-0d6a20e82510.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121632-media_library/original/9db12b77-777e-4a1a-9231-0c996adfa79c.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121632-media_library/original/0ab33a79-ef69-4f1e-b808-24f34cd9f2ff.jpeg?im_w=1440",
+    ],
     review: {
       rating: 5.0,
       voteCount: 2,
@@ -36,7 +41,12 @@ export default [
     If you’re planning a trip to Japan but unsure or overwhelmed with all the things to do, and places to see; or if you want to avoid wasting your time on tourist traps and truly dive into the Japanese culture, then we might be exactly what you need!
     `,
     price: 8,
-    img: "src/static/img/card-img1.png",
+    coverImg: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121505-media_library/original/ad81cdd5-4934-4ac5-9789-a1711cb81523.jpeg?im_w=480",
+    gallery: [
+      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121505-media_library/original/62ad1850-896e-4f77-b276-0c19293c55bb.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121505-media_library/original/97ef9339-244d-4e81-b3a1-3be4733a3593.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121505-media_library/original/b058d9c0-a14e-4341-a40e-f676b5fbdcf3.jpeg?im_w=1440",
+    ],
     review: {
       rating: 5.0,
       voteCount: 3,
