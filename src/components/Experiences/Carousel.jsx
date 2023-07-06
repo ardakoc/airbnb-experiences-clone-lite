@@ -7,7 +7,7 @@ export default function Carousel() {
   const experiences = data.map(experience => 
     <Card 
       img={experience.coverImg}
-      gallery={experience.gallery[0]}
+      gallery={experience.gallery}
       rating={experience.review.rating}
       voteCount={experience.review.voteCount}
       location={experience.location}
