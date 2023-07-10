@@ -4,8 +4,8 @@ import CardImage from "./CardImage"
 import CardDetail from "./CardDetail"
 
 export default function Card(props) {
-  const [over, setOver] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [over, setOver] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -15,7 +15,7 @@ export default function Card(props) {
       else {
         setCurrentIndex(currentIndex + 1)
       }
-    }, 3000)
+    }, 2500)
     
     return () => clearInterval(intervalId)
   }, [currentIndex])
