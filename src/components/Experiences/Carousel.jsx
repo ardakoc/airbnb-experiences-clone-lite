@@ -1,10 +1,9 @@
 import "../../static/css/Carousel.css"
 import ExperiencesTitle from "./ExperiencesTitle"
 import Card from "../Card/Card"
-import data from "../../data"
 
-export default function Carousel() {
-  const experiences = data.map(experience => 
+export default function Carousel(props) {
+  const experiences = props.data.map(experience => 
     <Card
       key={experience.id}
       img={experience.coverImg}
@@ -18,7 +17,7 @@ export default function Carousel() {
   )
   return (    
     <div className="carousel">
-      <ExperiencesTitle />
+      <ExperiencesTitle title={props.title} />
       <div className="experiences">
         {experiences}
       </div>
