@@ -5,7 +5,8 @@ import data from "../../data"
 
 export default function Carousel() {
   const experiences = data.map(experience => 
-    <Card 
+    <Card
+      key={experience.id}
       img={experience.coverImg}
       gallery={experience.gallery}
       rating={experience.review.rating}
