@@ -6,13 +6,7 @@ export default function Carousel(props) {
   const experiences = props.data.map(experience => 
     <Card
       key={experience.id}
-      img={experience.coverImg}
-      gallery={experience.gallery}
-      rating={experience.review.rating}
-      voteCount={experience.review.voteCount}
-      location={experience.location}
-      title={experience.title}
-      price={experience.price}
+      item={experience}
     />
   )
   return (    

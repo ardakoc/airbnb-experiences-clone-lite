@@ -10,12 +10,12 @@ export default function CardDetail(props) {
     <>
       <div className="card-detail-info">
         <Star />
-        <Rating rating={props.rating} voteCount={props.voteCount} />
+        <Rating rating={props.item.review.rating} voteCount={props.item.review.voteCount} />
         <Seperator />
-        <Location location={props.location} />
+        <Location location={props.item.location} />
       </div>
-      <CardTitle title={props.title} />
-      <Price price={props.price} />
+      <CardTitle title={props.item.title} />
+      <Price price={props.item.price} />
     </>
   )
 }

@@ -32,13 +32,9 @@ export default function Card(props) {
 
   return (
     <div className="card" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-      <CardImage img={over ? props.gallery[currentIndex] : props.img} />
+      <CardImage img={over ? props.item.gallery[currentIndex] : props.item.coverImg} />
       <CardDetail 
-        rating={props.rating}
-        voteCount={props.voteCount}
-        location={props.location}
-        title={props.title}
-        price={props.price}
+        item={props.item}
       />
     </div>
   )
