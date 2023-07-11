@@ -4,8 +4,8 @@ import data from "../../data"
 export default function Experiences() {
   return (
     <>
-      <Carousel title="Plan a trip with help from local Hosts around the world" data={data} />
-      <Carousel title="Best sellers" data={data} />
+      <Carousel title={data[0].title} data={data[0].data} />
+      <Carousel title={data[1].title} data={data[1].data} />
     </>
   )
 }
