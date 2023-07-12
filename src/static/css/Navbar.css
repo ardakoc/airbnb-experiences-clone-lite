@@ -65,6 +65,11 @@ nav {
 }
 
 .nav-profile {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-profile-main {
   background: transparent;
   margin: 0;
   padding: 6px 12px;
@@ -76,11 +81,58 @@ nav {
   align-items: center;
   gap: 12px;
   transition: box-shadow 0.2s;
+  cursor: pointer;
 }
 
-.nav-profile:hover {
-  cursor: pointer;
+.nav-profile-main:not(.nav-profile-active):hover {
   box-shadow: rgba(113, 113, 113, 0.35) 0 2.5px 3.5px;
+}
+
+.nav-profile-menu {
+  width: 240px;
+  position: absolute;
+  /* right: 0; */
+  top: 55px;
+  right: 0;
+  letter-spacing: -0.4px;
+  font-weight: 300;
+}
+
+.nav-profile-active {
+  border-radius: 21px;
+  box-shadow: rgba(113, 113, 113, 0.35) 0 2.5px 3.5px;
+}
+
+.profile-menu {
+  background: #fff;
+  list-style: none;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(204, 204, 204, 0.7) 0 0 30px;
+  -moz-box-shadow: rgba(204, 204, 204, 0.7) 0 0 30px;
+  box-shadow: rgba(204, 204, 204, 0.7) 0 0 12px;
+}
+
+.profile-menu-top {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.profile-menu-top,
+.profile-menu-bottom {
+  padding: 8px 0;
+}
+
+.profile-menu-top > li,
+.profile-menu-bottom > li {
+  padding: 8px 16px;
+}
+
+.profile-menu-top > li:hover,
+.profile-menu-bottom > li:hover {
+  background: #F7F7F7;
+  cursor: pointer;
 }
 
 @media (max-width: 1440px) {
