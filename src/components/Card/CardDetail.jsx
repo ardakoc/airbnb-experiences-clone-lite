@@ -1,6 +1,6 @@
 import Star from "../Icons/Star"
 import Rating from "./Rating"
-import Seperator from "./Seperator"
+import Seperator from "../Icons/Seperator"
 import Location from "./Location"
 import CardTitle from "./CardTitle"
 import Price from "./Price"

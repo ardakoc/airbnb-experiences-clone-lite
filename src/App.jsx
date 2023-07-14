@@ -1,6 +1,7 @@
 import Navbar from './components/Navigation/Navbar'
 import Hero from './components/Hero/Hero'
 import Experiences from './components/Experiences/Experiences'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Experiences />
+      <Footer />
     </>
   )
 }

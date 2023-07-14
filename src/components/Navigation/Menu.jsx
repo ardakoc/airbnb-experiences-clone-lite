@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <div className="nav-menu">
       <button className="nav-btn">Airbnb your home</button>
-      <GlobeIcon />
+      <GlobeIcon section="nav-globe-icon" />
       <Profile />
     </div>
   )
